@@ -1,0 +1,48 @@
+html,body{
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px solid black;
+    height: 500px;
+}
+.box{
+    width: 110px;
+    display: flex;
+    background-color: grey;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+}
+.box:hover:nth-child(1){
+    align-self: center;
+    background-color: red;
+}
+.box:hover:nth-child(2){
+    align-self: center;
+    background-color: red;
+}
+.box:hover:nth-child(3){
+    align-self: center;
+    background-color: red;
+}
+.box:hover:nth-child(4){
+    align-self: center;
+    background-color: red;
+}
+.box:hover:nth-child(5){
+    align-self: center;
+    background-color: lime;
+}
+.box:hover:nth-child(6){
+    align-self: center;
+    background-color: red;
+}
